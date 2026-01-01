@@ -1,0 +1,63 @@
+================================================================
+  INSTALLATION AVEC WAMP - GUIDE RAPIDE
+================================================================
+
+ÉTAPE 1 : Démarrer WAMP
+------------------------
+1. Lancez WAMP Server
+2. Attendez que l'icône devienne VERTE dans la barre des tâches
+
+ÉTAPE 2 : Copier le projet
+---------------------------
+1. Copiez TOUT le dossier du projet dans :
+   C:\wamp64\www\eshop\
+
+2. Vérifiez que vous avez ces dossiers et fichiers :
+   - admin/
+   - ajax/
+   - assets/
+   - auth/
+   - config/
+   - database/
+   - includes/
+   - index.php
+   - boutique.php
+   - produit.php
+   - panier.php
+   - commande.php
+   - contact.php
+
+ÉTAPE 3 : Créer la base de données
+-----------------------------------
+1. Ouvrez http://localhost/phpmyadmin dans votre navigateur
+
+2. Cliquez sur l'onglet "SQL"
+
+3. Ouvrez le fichier database/ecommerce_site.sql avec Notepad
+
+4. Copiez TOUT le contenu et collez-le dans la zone SQL
+
+5. Cliquez sur "Exécuter"
+
+6. Vérifiez que la base "ecommerce_site" apparaît à gauche
+
+ÉTAPE 4 : Tester le site
+-------------------------
+1. Ouvrez votre navigateur
+
+2. Allez à : http://localhost/eshop/
+
+3. Vous devriez voir la page d'accueil !
+
+CONNEXION ADMIN
+---------------
+Email : admin@shop.sn
+Mot de passe : admin123
+
+PROBLÈMES ?
+-----------
+- Erreur 500 ? Vérifiez que MySQL est démarré dans WAMP
+- Base de données introuvable ? Vérifiez config/database.php
+- Images ne s'affichent pas ? Elles sont dans assets/images/products/
+
+================================================================
